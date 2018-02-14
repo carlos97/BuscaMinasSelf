@@ -10,7 +10,7 @@ import javax.swing.*;
 
 /**
  *
- * @author usuario
+ * @author Carlos Lopez
  */
 public class NoJbutton extends JButton{
     private int indexY;
