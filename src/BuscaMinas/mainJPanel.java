@@ -33,7 +33,7 @@ public class mainJPanel extends JPanel {
                 MainEvents ev = new MainEvents(b[i][j],b);
                 b[i][j].setText("x");
                 b[i][j].setIndexX(i);
-                b[i][j].setIndexX(j);
+                b[i][j].setIndexY(j);
                 if(ran.nextInt(100)>70){
                     b[i][j].setHaveMine(true);
                 }else{
