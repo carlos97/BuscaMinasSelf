@@ -76,7 +76,7 @@ public class NoJbutton extends JButton{
         if(hitMine==true){
             return true;
         }else{
-            return true;
+            return false;
         }
     }
     
